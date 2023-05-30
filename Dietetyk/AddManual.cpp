@@ -87,12 +87,14 @@ inline void add_manual() {
     
     Patient p(name, surname, age, weight, height);
     patients.push_back(p);
+    
+    /*
     ofstream file;
     file.open("Patients.txt", ios::app);
     file << endl;
     file << p.get_id() << " " << name << " " << surname << " " << age << " " << weight << " " << height << " ";
     file.close();
-
+    */
 
 }
 
